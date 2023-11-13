@@ -1,26 +1,22 @@
-# Bootcamp WEX Desenvolvimento .NET e QA
+# DIO - Trilha .NET - Programação orientada a objetos
+www.dio.me
 
-Detalhes do bootcamp
-A WEX, uma plataforma de comércio global, com presença em 16 países, se juntou à DIO em um programa inédito e com oportunidades de contratação! Mantendo o compromisso com a Diversidade e Inclusão, a WEX terá vagas afirmativas para pessoas com deficiência.
+## Desafio de projeto
+Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de orientação a objetos, da trilha .NET da DIO.
 
-Domine conceitos avançados de programação em C#, trabalhe com bancos de dados SQL Server e compreenda os fundamentos e práticas do QA, incluindo automação de testes, para aprimorar seu desenvolvimento em .NET e QA e se destacar no mercado.
+## Contexto
+Você é responsável por modelar um sistema que trabalha com celulares. Para isso, foi solicitado que você faça uma abstração de um celular e disponibilize maneiras de diferentes marcas e modelos terem seu próprio comportamento, possibilitando um maior reuso de código e usando a orientação a objetos.
 
-Você vai aprender desde os conceitos fundamentais do .Net, aprimoramento da lógica computacional, exploração aprofundada da linguagem C# com ênfase na programação orientada a objetos e práticas relacionadas ao desenvolvimento orientado a testes e qualidade de software, em conteúdos com experts da DIO e WEX além de mentorias com experts da DIO e WEX, desafios e código e projetos práticos para o portfólio.
+## Proposta
+Você precisa criar um sistema em .NET, do tipo console, mapeando uma classe abstrata e classes específicas para dois tipos de celulares: Nokia e iPhone. 
+Você deve criar as suas classes de acordo com o diagrama abaixo:
 
-Atividades:
-Mentorias (Live): Momento em que você irá se inspirar nos talentos das empresas mais inovadoras do mundo, podendo interagir ao longo da live e até fazer perguntas sobre carreira e tecnologia.
+![Diagrama classes](Imagens/diagrama.png)
 
-Desafio de Código: Coloque em prática todo o conhecimento adquirido nas aulas e teste o seu conhecimento na resolução de um desafio.
+## Regras e validações
+1. A classe **Smartphone** deve ser abstrata, não permitindo instanciar e servindo apenas como modelo.
+2. A classe **Nokia** e **Iphone** devem ser classes filhas de Smartphone.
+3. O método **InstalarAplicativo** deve ser sobrescrito na classe Nokia e iPhone, pois ambos possuem diferentes maneiras de instalar um aplicativo.
 
-Desafio de Projeto: Construa o seu portfólio construindo projetos práticos com o conhecimento adquirido ao longo das aulas.
-
-Ranking: Cada bootcamp possui um ranking com premiações exclusivas, onde você pontua de acordo com as interações que você realiza em Fórum e Rooms, dos acertos que você tem em questionários e da qualidade do código que você desenvolveu nos desafios.
-
-Ferramentas para o seu aprendizado:
-Fórum: Espaço para você interagir e tirar suas dúvidas técnicas com a nossa comunidade.
-
-Rooms: Espaço para você conversar com outros matriculados no bootcamp e aumentar o seu networking.
-
-Matriculados: Saiba quem está participando da mesma jornada educacional que você.
-
-Certificado: Baixe e compartilhe os certificados de todas as suas conquistas ao longo desse bootcamp.
+## Solução
+O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
